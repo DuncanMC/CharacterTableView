@@ -12,6 +12,7 @@
 		AEE830AE2177FF1F0043807F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE830AC2177FF1F0043807F /* Main.storyboard */; };
 		AEE830B02177FF210043807F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE830AF2177FF210043807F /* Assets.xcassets */; };
 		AEE830B32177FF210043807F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE830B12177FF210043807F /* LaunchScreen.storyboard */; };
+		AEE830BB2177FF3E0043807F /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE830BA2177FF3E0043807F /* CharacterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AEE830AF2177FF210043807F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE830B22177FF210043807F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE830B42177FF210043807F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE830BA2177FF3E0043807F /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AEE830A82177FF1F0043807F /* AppDelegate.swift */,
 				AEE830AA2177FF1F0043807F /* ViewController.swift */,
+				AEE830BA2177FF3E0043807F /* CharacterTableViewController.swift */,
 				AEE830AC2177FF1F0043807F /* Main.storyboard */,
 				AEE830AF2177FF210043807F /* Assets.xcassets */,
 				AEE830B12177FF210043807F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE830AB2177FF1F0043807F /* ViewController.swift in Sources */,
+				AEE830BB2177FF3E0043807F /* CharacterTableViewController.swift in Sources */,
 				AEE830A92177FF1F0043807F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
